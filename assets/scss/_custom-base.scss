@@ -1,0 +1,20 @@
+body {
+  color: theme("colors.warmGray.700");
+}
+
+p {
+  @apply mt-2 mb-4 lg:text-lg;
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-serif font-semibold;
+}
